@@ -13,13 +13,16 @@ public class IntroToRandom {
 		// Before you can make random numbers, you need a Random object. Random objects make random things.
 		// Random objects are created like this.
 		Random ran = new Random();
+	
+		
+//		System.out.println(num);
 		
 		/*************  Random integers with no bounds  *************/
 		
 		// Run this program and you will see that nextInt created 5 random integers which have been printed to the console
 		for (int i=0; i<5; i++) {
 			number = ran.nextInt();
-			System.out.println(number);
+			//System.out.println(number);
 		}
 		// The range of numbers that an int variable can hold is very large (as you can see in the console).
 		// Integers can also be positive or negative.
@@ -30,8 +33,8 @@ public class IntroToRandom {
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
-			// number = ran.nextInt(_____);
-			System.out.println(number);
+			number = ran.nextInt(100);
+			//System.out.println(number);
 			
 		}
 		
@@ -49,7 +52,12 @@ public class IntroToRandom {
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
-			// number = ran.nextInt(_____) + <lowest value>;
+			//25-75
+			//(highest value - lowest value + 1)
+			//(75-25+1)
+			//(51)
+			
+			number = ran.nextInt(51) + 25;
 			System.out.println(number);
 			
 		}
