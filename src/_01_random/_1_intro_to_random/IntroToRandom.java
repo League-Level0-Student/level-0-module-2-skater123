@@ -6,14 +6,16 @@ package _01_random._1_intro_to_random;
 import java.util.Random;
 
 public class IntroToRandom {
+	
+	
 	public static void main(String[] args) {
+		
 		
 		int number = 0;
 		
 		// Before you can make random numbers, you need a Random object. Random objects make random things.
 		// Random objects are created like this.
 		Random ran = new Random();
-	
 		
 //		System.out.println(num);
 		
@@ -75,9 +77,6 @@ public class IntroToRandom {
 			
 			//Should unit test to verify
 			//Solution -> int v = (222 + 89) - 222
-			
-
-		
 		}
 	
 		
@@ -133,4 +132,6 @@ public class IntroToRandom {
 		
 		
 	}
+	
+	
 }
