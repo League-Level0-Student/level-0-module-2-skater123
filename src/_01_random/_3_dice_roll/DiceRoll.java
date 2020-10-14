@@ -56,18 +56,18 @@ public class DiceRoll {
 			//new Random().nextInt(6);
 			
  			//.nextInt(6);
-			int randomChoice = ; //Random
+			int randomChoice =r.nextInt(6)+1 ; //Random
 
 			// 2. Fix the code below so that it displays the correct image
-			if (randomChoice == 0) {
+			if (randomChoice == 1) {
 				label.setIcon(oneImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 2) {
 				label.setIcon(twoImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 3) {
 				label.setIcon(threeImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 4) {
 				label.setIcon(fourImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 5) {
 				label.setIcon(fiveImg);
 			} else {
 				label.setIcon(sixImg);
