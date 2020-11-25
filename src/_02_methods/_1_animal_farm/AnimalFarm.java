@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2019
+//    Copyright (c) The Lniuckague of Amazing Programmers 2013-2019
 //    Level 0
 
 package _02_methods._1_animal_farm;
@@ -16,8 +16,10 @@ public class AnimalFarm {
 	
 	public static void main(String[] args) {
 			
-		/* 1. Ask the user which animal they want, then play the sound of that animal. */			 
-			
+		/* 1. Ask the user which animal they want, then play the sound of that animal*/
+		 
+	 String Animal =   JOptionPane.showInputDialog(null, "What animal Do you want ???");
+		if(Animal.equals("duck"))		 
 		/* 2. Make it so that the user can keep entering new animals. */
 
 	}
