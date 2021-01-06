@@ -20,6 +20,7 @@ public class AnimalFarm {
 		 
 	 String Animal =   JOptionPane.showInputDialog(null, "What animal Do you want ???");
 		if(Animal.equals("duck"))		 
+			]
 		/* 2. Make it so that the user can keep entering new animals. */
 
 	}
